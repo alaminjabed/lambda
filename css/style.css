@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yeseva One', cursive;
+}
+
+p, q, span {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand > img {
+  height: 70px;
+}
+
+.nav-social i {
+  color: #dab33e;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+#menu-content {
+  background: url(../images/menu-bg.jpg) no-repeat center center/cover;
+}
+
+.content-title h1 {
+  padding-top: 240px;
+  text-align: center;
+  font-size: 90px;
+  max-width: 960px;
+  margin: 0px auto;
+  color: #fff;
+}
+
+.content-img {
+  text-align: center;
+  padding: 35px 0px;
+}
+
+.content-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 135px;
+}
+
+.book-a-table {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  text-transform: uppercase;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.book-a-table:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  text-transform: uppercase;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.see-the-menu {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin-left: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.see-the-menu:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.menu-bg {
+  background: #cc9900;
+}
+
+#about {
+  background: url(../images/pattern.png) no-repeat center center/cover;
+}
+
+.about-title {
+  padding-top: 100px;
+}
+
+.ingredients-title h3 {
+  color: #ffffff;
+  padding-top: 80px;
+}
+
+.ingredients-para p {
+  color: #ffffff;
+  max-width: 400px;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+
+.ingredients-devider img {
+  padding-top: 15px;
+}
+
+.about-img {
+  padding-top: 17px;
+  padding-bottom: 33px;
+}
+
+.about-sign {
+  padding-top: 50px;
+}
+
+.about-dish {
+  padding-top: 70px;
+}
+
+section#ingredients {
+  background: url(../images/ingredients-bg.jpg) no-repeat center center/cover;
+}
+
+.ingredients-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ingredients-img img {
+  padding: 70px 15px;
+}
+
+.ingredients-content {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 100px 0px;
+}
+
+#menus {
+  background: url(../images/menus-bg.png) no-repeat center center/cover;
+}
+
+.menus-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #e6dab3;
+}
+
+.menus-content h5 {
+  color: #cc9900;
+}
+
+.menus-content span {
+  color: #cc9900;
+}
+
+.menus-title h3 {
+  padding-top: 100px;
+  color: #cc9900;
+}
+
+.menus-para p {
+  text-align: start;
+}
+
+.menus-title-fourth {
+  color: #cc9900;
+  padding-top: -70px;
+}
+
+.menus-title-third {
+  color: #cc9900;
+  padding-top: 70px;
+}
+
+.menu-third {
+  padding-bottom: 100px;
+}
+
+.menu-fourth {
+  padding-bottom: 100px;
+}
+
+#reviews {
+  background: url(../images/reviews-bg.jpg);
+}
+
+.reviews-content {
+  color: #fff;
+  padding: 100px 0px;
+}
+
+.reviews-contents {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 100px 0px;
+}
+
+.reviews-quates {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.reviews-img {
+  padding: 25px 0px;
+}
+
+.reviews-span {
+  padding-top: 25px;
+}
+
+.booking-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0px;
+}
+
+#booking-form {
+  background: url(../images/booking-bg.png);
+}
+
+.img-right {
+  margin-left: 30px;
+}
+
+.booking-right {
+  padding: 100px 0px;
+}
+
+.booking-form button {
+  background: #cc9900;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #cc9900;
+  margin-top: 11px;
+}
+
+.booking-devider {
+  padding: 30px 0px;
+}
+
+.booking-title {
+  color: #cc9900;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  border-color: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+label {
+  color: #cc9900;
+  font-weight: bold;
+}
+
+#footer {
+  background: #191919;
+}
+
+.footer-title h5 {
+  color: #fff;
+}
+
+.footer-para p {
+  color: #c2c2c2;
+}
+
+.footer-para span {
+  color: #fff;
+}
+
+.footer-content {
+  padding: 60px 0px 70px 0px;
+}
+
+.payment {
+  color: #fff;
+  margin-top: 40px;
+}
+
+.footer-social {
+  color: #fff;
+  margin-top: 40px;
+}
+/*# sourceMappingURL=style.css.map */
